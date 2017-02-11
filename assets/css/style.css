@@ -1,0 +1,336 @@
+#container {
+	max-width: 960px;
+	display: block;
+	margin: auto;
+}
+
+#header {
+	border-bottom: 2px solid #cccccc;
+}
+
+#headerinside {
+	width: 960px;
+	margin: auto;
+}
+
+#maininside {
+	width: 960px;
+	margin: auto;
+}
+
+.main-div {
+	background-image: url(/assets/images/concrete_seamless.png);
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.left {
+	float: left;
+	width: 550px;
+	padding: 50px 50px 0 50px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+.right {
+	float: left;
+	margin-left: 36px;
+	width: 270px;
+	border: 1px solid #cccccc;
+	padding: 50px 0;
+	background-color: #ffffff;
+}
+
+.maintitle {
+	text-align: center;
+	color: #ffffff;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	margin-top: 1px;
+	line-height: 80px;
+}
+
+ul {
+	float: right;
+	font: 'Arial', 'Helvectica', Helvectica, sans-serif;
+	display: block;
+	margin: auto;
+	font-size: 15px;
+	word-spacing: 23px;
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+}
+
+li {
+	display: inline;
+	text-align: center;
+	line-height: 80px;
+}
+
+li a {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+	display: inline;
+}
+
+#divicon {
+	padding: 40px 0px 40px 0px;
+	text-align: center;
+}
+
+.icon {
+	display: inline-block;
+	margin-top: 1px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18;
+	font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-size: 28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 25px;
+}
+
+#profileimg {
+	float: left;
+	/*    margin-left: 100px;*/
+	padding-right: 20px;
+}
+
+#leftcontent {
+	padding: 25px 0 0 0;
+}
+
+#leftcontent p {}
+
+#headshot {
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 0 25px 25px 0;
+}
+
+p {
+	font-weight: light;
+	font-size: 20px;
+	color: #777777;
+	letter-spacing: 1px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	/*    border: 1px solid black;*/
+}
+
+.h2connect {
+	/*    text-align: center;*/
+	text-align: center;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#contactform span {
+	display: block;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+#contactform input {
+	width: 100%;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+#contactform textarea {
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+#contactform input[type="submit"] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 0;
+	width: 150px;
+}
+
+.input {
+	border: none;
+}
+
+#submitbutton {
+	float: left;
+	margin: 80px 50px 50px 15px;
+	background-color: #4aaaa5;
+}
+
+#subbutt {
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	border: 1px solid #cccccc;
+	width: 100px;
+	height: 25px;
+}
+
+.thumbleft {
+	width: 250px;
+	float: left;
+	border: 1px solid #cccccc;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	position: relative;
+}
+
+.thumbleft img {
+	width: 250px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+.thumbleft span {
+	text-align: center;
+	display: block;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	line-height: 40px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.thumbright {
+	width: 250px;
+	float: left;
+	border: 1px solid #cccccc;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	position: relative;
+	margin-left: 46px;
+}
+
+.thumbright img {
+	width: 250px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+.thumbright span {
+	text-align: center;
+	display: block;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	line-height: 40px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.imagerow {
+	float: left;
+	padding-bottom: 40px;
+}
+
+footer {
+	clear: both;
+	line-height: 50px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.brdr {
+	background-color: white;
+	float: left;
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.thumbs {
+	box-shadow: 0 0 2px #CCC;
+	margin: 0 auto;
+	padding: 0;
+	height: 200px;
+	position: relative;
+	max-width: 250px;
+	margin-bottom: 25px
+}
+
+.thumbs img {
+	width: 250px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+.thumbs span {
+	text-align: center;
+	display: block;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	line-height: 40px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+@media (min-width: 640px) {
+	.container {
+		width: 640px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 768px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 980px) {
+	.container {
+		width: 980px;
+		margin: auto;
+	}
+	.maintitle {
+		width: 50%;
+	}
+	nav {
+		float: right;
+		width: 270px;
+	}
+}
